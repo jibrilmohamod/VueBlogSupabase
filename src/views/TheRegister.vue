@@ -225,7 +225,6 @@
 </template>
 
 <script setup>
- import axios from "axios"
  import { ref } from "vue"
  import { useRouter } from "vue-router"
  import { supabase } from "../supabase/init.js"
@@ -233,10 +232,8 @@
 
  const email = ref(null)
  const password = ref(null)
- const username = ref("")
  const conf = ref(null)
  let errorMsg = ref("")
- let jwt = ref(null)
  const router = useRouter()
  const show = ref(true)
 

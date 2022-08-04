@@ -120,7 +120,7 @@
        type="submit"
        class="focus:ring-2 focus:ring-offset-2 focus:ring-emerald-600 text-sm font-semibold leading-none text-white focus:outline-none bg-emerald-400 border rounded hover:bg-emerald-500 py-4 w-full"
       >
-       Create my account
+       Log In
       </button>
      </div>
     </div>
